@@ -7,10 +7,14 @@ const Button = styled.button`
   align-items: center;
   cursor: pointer;
   font-size: 18px;
-  padding: ${(props) => props.theme.size.OneX}
-    ${(props) => props.theme.size.TwoX};
-  margin: ${(props) => props.theme.size.OneX};
+  padding: ${(props) => props.theme.size.nano}
+    ${(props) => props.theme.size.small};
+  margin: ${(props) => props.theme.size.nano};
   color: ${(props) => props.theme.colors.white};
+  &:disabled {
+    opacity: 0.4;
+    pointer-events: none;
+  }
 `;
 
 export const Primary = styled(Button)`

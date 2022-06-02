@@ -17,13 +17,18 @@ const theme = {
     text: "#d6edff",
   },
   size: {
-    OneX: `${unit}px`, // 8px
-    TwoX: `${unit * 2}px`, // 16px
-    ThreeX: `${unit * 3}px`, // 24px
-    FourX: `${unit * 4}px`, // 32px
-    FiveX: `${unit * 5}px`, // 40px
-    SixX: `${unit * 6}px`, // 48px
-    SevenX: `${unit * 7}px`, // 56px
+    nano: `${unit}px`, // 8px
+    small: `${unit * 2}px`, // 16px
+    medium: `${unit * 3}px`, // 24px
+    large: `${unit * 4}px`, // 32px
+    huge: `${unit * 8}px`, // 64px
+    mega: `${unit * 16}px`, // 128px
+  },
+  breakpoint: {
+    phone: "640px",
+    tablet: "768px",
+    smallDesktop: "900px",
+    desktop: "1200px",
   },
 };
 
